@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrap{
+
+  color: white;
+  width: 300px;
+  height: 400px;
+  background: gray;
+  p{
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 10px;
+    span{
+      float: right;
+      margin-right: 10px;
+    }
+  }
+  h2{
+    padding-top: 20px;
+    margin-left: 10px;
+  }
+  .but{
+    width: 280px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: dodgerblue;
+    border: none;
+  }
+  div{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 300px;
+    height: 40px;
+    position: relative;
+    input{
+      float: left;
+      width:230px ;
+      height: 40px;
+    }
+    .p1{
+      width: 40px;
+      height: 44px;
+      //margin-top: 1px;
+      float: left;
+      background: white;
+
+
+    }
+    ul{
+      color: black;
+      position: absolute;
+      width: 275px;
+      z-index: 2;
+      top: 45px;
+      background: red;
+      display: none;
+      //width: 250px;
+      //height: 46px;
+      list-style: none;
+      li{
+        //background: white;
+        line-height: 40px;
+        width: 275px;
+        height: 40px;
+        background: white;
+
+      }
+      li:hover{
+
+        background: gainsboro;
+      }
+    }
+  }
+}

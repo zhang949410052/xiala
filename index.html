@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="haodai.css">
+</head>
+<body>
+      <div class="wrap">
+          <h2>快速搜索消费贷款</h2>
+          <p>贷款金额:<span>不足一万可用小数表示</span></p>
+          <div>
+              <input type="text" class="inp1">
+              <span class="p1">
+
+              </span>
+              <ul class="u1">
+                  <li>5万元</li>
+                  <li>10万元</li>
+                  <li >15万元</li>
+                  <li>20万元</li>
+                  <li>25万元</li>
+                  <li>30万元</li>
+              </ul>
+          </div>
+          <p>贷款期限</p>
+          <div>
+              <input type="text" class="inp2">
+              <span class="p1">
+
+              </span>
+              <ul class="u2">
+                  <li>6个月</li>
+                  <li>1年</li>
+                  <li>18个月</li>
+                  <li>2年</li>
+                  <li>3年</li>
+                  <li>5年</li>
+                  <li>10年</li>
+              </ul>
+          </div>
+          <input type="button" value="搜索一下" class="but">
+          <p>9164种信贷产品 2000家银行 1403家小贷公司</p>
+      </div>
+</body>
+<script src="jquery-3.1.1.min.js"></script>
+<script>
+    $(function () {
+//        $("select option").each(function (index,element) {
+//            this.onclick = function () {
+//                alert(this.value)
+//            }
+//
+////            this.onclick = function () {
+////                alert(1)
+////            }
+//        })
+//      $("select option").click(function () {
+//          alert(1)
+//      })
+        $(".p1").eq(0).click(function () {
+            $(".u1").toggle()
+        })
+        $(".p1").eq(1).click(function () {
+            $(".u2").toggle()
+        })
+        
+        $(".u1 li").click(function () {
+            $(".inp1").val($(this).html())
+            $(".u1").toggle()
+        })
+        $(".u2 li").click(function () {
+            $(".inp2").val($(this).html())
+            $(".u2").toggle()
+        })
+
+
+        
+    })
+</script>
+</html>

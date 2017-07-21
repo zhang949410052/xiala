@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.wrap {
+  color: white;
+  width: 300px;
+  height: 400px;
+  background: gray; }
+  .wrap p {
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 10px; }
+    .wrap p span {
+      float: right;
+      margin-right: 10px; }
+  .wrap h2 {
+    padding-top: 20px;
+    margin-left: 10px; }
+  .wrap .but {
+    width: 280px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: dodgerblue;
+    border: none; }
+  .wrap div {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 300px;
+    height: 40px;
+    position: relative; }
+    .wrap div input {
+      float: left;
+      width: 230px;
+      height: 40px; }
+    .wrap div .p1 {
+      width: 40px;
+      height: 44px;
+      float: left;
+      background: white; }
+    .wrap div ul {
+      color: black;
+      position: absolute;
+      width: 275px;
+      z-index: 2;
+      top: 45px;
+      background: red;
+      display: none;
+      list-style: none; }
+      .wrap div ul li {
+        line-height: 40px;
+        width: 275px;
+        height: 40px;
+        background: white; }
+      .wrap div ul li:hover {
+        background: gainsboro; }
+
+/*# sourceMappingURL=haodai.css.map */
